@@ -72,7 +72,7 @@ int getLongestSubarray(vector<int>& a, long long k) {
 // Space Complexity: O(1) as we are not using any extra space.
 
 // Space Complexity: O(1) as we are not using any extra space.
-
+//this will not work if array contains negatives.
 int getLongestSubarray(vector<int>& a, long long k) {
     int n = a.size(); // size of the array.
 
